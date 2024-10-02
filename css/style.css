@@ -1,0 +1,119 @@
+/* CORES F20530 403BBC 4B50BF 0E1126 111530 */
+
+/* Reset Inicial */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #111530;
+}
+
+.container {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+
+}
+
+.logo {
+    display: flex;
+    color: #fff;
+    font-size: 40px;
+    transition: 1s;
+}
+
+.logo:hover {
+    color: #52A5D9;
+    cursor: pointer;
+}
+
+.ul-container {
+    list-style: none;
+    display: flex;
+
+}
+
+.ul-container li a {
+    margin-right: 67px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    transition: 1s;
+
+
+}
+
+.flex-li {
+    display: flex;
+
+}
+
+.ul-container li a:hover {
+    color: #52A5D9;
+
+}
+
+.btn-contact {
+    background-color: #4B80CE;
+    width: 90px;
+    height: 30px;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: -8px;
+}
+
+
+/*apresentation*/
+
+.apresentation {
+    margin-top: 150px;
+    font-size: 40px;
+    color: #ddd;
+    letter-spacing: 5px;
+}
+
+.apresentation h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+.apresentation a {
+    letter-spacing: 2px;
+}
+
+.apresentation .btn-previous {
+    background-color: #4B80CE;
+
+    padding: 15px;
+    color: #fff;
+    cursor: pointer;
+
+    text-decoration: none;
+    font-size: 10px;
+    transition: 1s;
+    border-radius: 5px;
+
+}
+
+.apresentation .btn-previous:hover {
+    color: #FFF;
+    border: 1px solid #FFF;
+    background-color: #111530;
+
+}
