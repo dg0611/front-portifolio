@@ -24,7 +24,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2rem;
+    margin: 2rem 0 0 0;
 
 }
 
@@ -49,7 +49,7 @@ body {
 .ul-container li a {
     margin-right: 67px;
     text-decoration: none;
-    color: #fff;
+    color: #ccc;
     font-size: 13px;
     transition: 1s;
 
@@ -83,8 +83,9 @@ body {
 .apresentation {
     margin-top: 150px;
     font-size: 40px;
-    color: #ddd;
+    color: #ccc;
     letter-spacing: 5px;
+    margin-left: 50px;
 }
 
 .apresentation h1 {
@@ -116,4 +117,88 @@ body {
     border: 1px solid #FFF;
     background-color: #111530;
 
+}
+
+/* About me */
+
+.box-picture {
+    width: 250px;
+    height: 250px;
+    border: 5px solid #52A5D9;
+    margin-top: 200px;
+    margin-left: 90px;
+    border-radius: 5px;
+}
+
+.about-me {
+    display: flex;
+
+}
+
+.description-about-me {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 200px;
+    
+
+}
+
+.about-color {
+    color: #ccc;
+    margin: 10px 0 40px 0;
+    
+}
+
+.box-img {
+    background-image: url("../img/minha-img.jpeg");
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    margin: -1.7rem;
+    border-radius: 5px;
+}
+
+.btn-hire-me  {
+    background-color: #4B80CE;
+    padding: 20px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+.btn-hire-me a {
+    margin-top: 30px;
+}
+
+.portifolio {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.portifolio li {
+    list-style: none;
+    
+}
+
+.portifolio h2 {
+    color: #ccc;
+}
+.ul-portifolio {
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 50px;
+    
+}
+
+.ul-portifolio a {
+    color: #ccc;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.ul-portifolio a:hover {
+    color: #52A5D9;
 }
