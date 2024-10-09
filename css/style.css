@@ -139,14 +139,14 @@ body {
     max-width: 600px;
     margin: 0 auto;
     margin-top: 200px;
-    
+
 
 }
 
 .about-color {
     color: #ccc;
     margin: 10px 0 40px 0;
-    
+
 }
 
 .box-img {
@@ -158,7 +158,7 @@ body {
     border-radius: 5px;
 }
 
-.btn-hire-me  {
+.btn-hire-me {
     background-color: #4B80CE;
     padding: 20px;
     color: #fff;
@@ -180,17 +180,18 @@ body {
 
 .portifolio li {
     list-style: none;
-    
+
 }
 
 .portifolio h2 {
     color: #ccc;
 }
+
 .ul-portifolio {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     margin-top: 50px;
-    
+
 }
 
 .ul-portifolio a {
@@ -200,5 +201,77 @@ body {
 }
 
 .ul-portifolio a:hover {
+    color: #52A5D9;
+}
+
+.project-right {
+    display: flex;
+
+}
+
+
+.box-picture-project-right {
+    /* Este é a borda azul*/
+    width: 250px;
+    height: 250px;
+    border: 5px solid #52A5D9;
+    margin-top: 100px;
+    margin-right: 90px;
+    border-radius: 5px;
+
+
+}
+
+.box-img-project-right {
+    /* Nesta vai a imagem*/
+    background-image: url("../img/conecta-pro.PNG");
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+
+    margin: -25px 0 0 15px;
+    border-radius: 5px;
+
+
+
+}
+
+.title-project-right {
+
+    color: #4B80CE;
+    margin: 100px 0 10px 50px;
+}
+
+h3 {
+    color: #ccc;
+    margin: 0 0 10px 50px;
+}
+
+
+.description-project-rigth {
+
+    color: #888;
+    margin-left: 50px;
+}
+
+.visit-project-rigth {
+
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    transition: 1s;
+    padding: 10px;
+    color: #fff;
+    margin: 2rem;
+
+
+
+}
+
+.margin-btn-project {
+    margin: 2rem;
+}
+
+.visit-project-rigth:hover {
     color: #52A5D9;
 }
