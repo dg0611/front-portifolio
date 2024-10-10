@@ -182,11 +182,12 @@ body {
 .ul-portifolio a {
     color: #ccc;
     text-decoration: none;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .ul-portifolio a:hover {
     color: #52A5D9;
+    border-bottom: 2px solid #4B80CE;
 }
 
 .project-right {
@@ -250,4 +251,68 @@ h3 {
 
 .visit-project-left:hover {
     color: #52A5D9;
+}
+
+
+/* SERVICES */
+
+.services-container {
+    text-align: center;
+    margin-top: 100px;
+    color: #ccc;
+}
+
+.service-box {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 300px;
+    height: auto;
+    border: 2px solid #52A5D9;
+    border-radius: 5px;
+
+
+}
+
+
+
+.fa-solid {
+    font-size: 50px;
+    display: flex;
+    margin: 20px 0 0 15px;
+    border-bottom: 2px solid #4B80CE;
+    width: 60px;
+    border-radius: 50px;
+    color: #52A5D9;
+
+}
+
+h4 {
+    display: flex;
+    justify-content: flex-end;
+    margin: -35px 10px 0 0;
+    font-weight: bold;
+}
+
+.description-service {
+    margin-top: 10px;
+    padding: 1rem;
+    text-align: justify;
+}
+
+.description-manut {
+    margin-right: 30px;
+}
+
+.description-app {
+    margin-right: 60px;
+}
+
+.description-site {
+    margin-right: 30px;
 }
