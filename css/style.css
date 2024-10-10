@@ -17,7 +17,6 @@ body {
     max-width: 1200px;
     height: auto;
     margin: 0 auto;
-
 }
 
 .header-container {
@@ -25,7 +24,6 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 2rem 0 0 0;
-
 }
 
 .logo {
@@ -43,7 +41,6 @@ body {
 .ul-container {
     list-style: none;
     display: flex;
-
 }
 
 .ul-container li a {
@@ -52,18 +49,14 @@ body {
     color: #ccc;
     font-size: 13px;
     transition: 1s;
-
-
 }
 
 .flex-li {
     display: flex;
-
 }
 
 .ul-container li a:hover {
     color: #52A5D9;
-
 }
 
 .btn-contact {
@@ -109,14 +102,12 @@ body {
     font-size: 10px;
     transition: 1s;
     border-radius: 5px;
-
 }
 
 .apresentation .btn-previous:hover {
     color: #FFF;
     border: 1px solid #FFF;
     background-color: #111530;
-
 }
 
 /* About me */
@@ -132,21 +123,17 @@ body {
 
 .about-me {
     display: flex;
-
 }
 
 .description-about-me {
     max-width: 600px;
     margin: 0 auto;
     margin-top: 200px;
-
-
 }
 
 .about-color {
     color: #ccc;
     margin: 10px 0 40px 0;
-
 }
 
 .box-img {
@@ -180,7 +167,6 @@ body {
 
 .portifolio li {
     list-style: none;
-
 }
 
 .portifolio h2 {
@@ -191,7 +177,6 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
-
 }
 
 .ul-portifolio a {
@@ -206,7 +191,6 @@ body {
 
 .project-right {
     display: flex;
-
 }
 
 
@@ -218,8 +202,6 @@ body {
     margin-top: 100px;
     margin-right: 90px;
     border-radius: 5px;
-
-
 }
 
 .box-img-project-right {
@@ -231,9 +213,6 @@ body {
 
     margin: -25px 0 0 15px;
     border-radius: 5px;
-
-
-
 }
 
 .title-project-right {
@@ -263,15 +242,12 @@ h3 {
     padding: 10px;
     color: #fff;
     margin: 2rem;
-
-
-
 }
 
 .margin-btn-project {
     margin: 2rem;
 }
 
-.visit-project-rigth:hover {
+.visit-project-left:hover {
     color: #52A5D9;
 }
